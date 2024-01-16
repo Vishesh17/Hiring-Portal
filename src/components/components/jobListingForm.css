@@ -1,0 +1,69 @@
+/* src/components/JobListingForm.css */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #191b28;
+    /* Dark background color */
+    color: #fff;
+    /* Text color */
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.job-listing-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 300px;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 1.2rem;
+    border: 2px solid #4a90e2;
+    /* Blue border color */
+    border-radius: 8px;
+    background-color: #1e2130;
+    /* Darker background for inputs */
+    color: #fff;
+    /* Text color */
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #6aadd8;
+    /* Lighter blue on focus */
+}
+
+.form-button {
+    background-color: #4a90e2;
+    /* Blue color */
+    color: #fff;
+    padding: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.form-button:hover {
+    background-color: #6aadd8;
+    /* Lighter blue on hover */
+}
